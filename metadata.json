@@ -1,0 +1,5 @@
+{
+  "name": "LocalPro Finder",
+  "description": "Find and connect with local professionals like plumbers, electricians, and more. Secure Google Sign-In included.",
+  "requestFramePermissions": ["geolocation"]
+}
