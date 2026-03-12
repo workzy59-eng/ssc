@@ -1,10 +1,23 @@
 {
-  "projectId": "gen-lang-client-0796963202",
-  "appId": "1:409703881967:web:c6710b9c7553eab3454f1a",
-  "apiKey": "AIzaSyDUYDUP2NVAZI_6F9qmLAkys8G_iKTNtxY",
-  "authDomain": "gen-lang-client-0796963202.firebaseapp.com",
-  "firestoreDatabaseId": "ai-studio-60fd58d1-025a-42bd-9cba-529fd567db6e",
-  "storageBucket": "gen-lang-client-0796963202.firebasestorage.app",
-  "messagingSenderId": "409703881967",
-  "measurementId": ""
+  // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCgu60Fm6BaXcARdCsGDvZ3wu7kSh4SYAw",
+  authDomain: "xdsq-6aab9.firebaseapp.com",
+  projectId: "xdsq-6aab9",
+  storageBucket: "xdsq-6aab9.firebasestorage.app",
+  messagingSenderId: "665466999846",
+  appId: "1:665466999846:web:683fabd70bba28e363c2e7",
+  measurementId: "G-VXFDCSK3DT"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 }
